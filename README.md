@@ -29,13 +29,6 @@ A modern React application for exploring stocks listed on the NASDAQ exchange.
    npm run dev
    ```
 
-## Testing
-
-Run the test suite:
-
-```bash
-npm test
-```
 
 ## Technologies Used
 
