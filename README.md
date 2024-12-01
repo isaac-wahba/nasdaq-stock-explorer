@@ -15,10 +15,7 @@ A modern React application for exploring stocks listed on the NASDAQ exchange.
 ## Setup
 
 1. Clone the repository
-2. Copy `.env.example` to `.env`:
-   ```bash
-   cp .env.example .env
-   ```
+2. Add `.env` in the root directory:
 3. Update `.env` with your Polygon.io API key:
    ```
    VITE_POLYGON_API_KEY=your_api_key_here
