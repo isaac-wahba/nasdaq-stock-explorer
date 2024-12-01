@@ -1,9 +1,10 @@
 import { StocksResponse } from "../types/stock";
 import { mockStocks } from "../data/mockStocks";
+import { env } from "../configs/env";
 
-const API_KEY = "pQxW8kAB7_bwQpk4UazWgEhevi8tGfxw";
+const API_KEY = env.POLYGON_API_KEY;
 const BASE_URL = "https://api.polygon.io/v3/reference/tickers";
-const USE_MOCK = true;
+const USE_MOCK = !API_KEY;
 
 const filterMockStocks = (
   search: string = "",
