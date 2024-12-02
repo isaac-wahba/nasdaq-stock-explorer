@@ -2,6 +2,10 @@
 
 A modern React application for exploring stocks listed on the NASDAQ exchange.
 
+## Project Deployment
+
+The project is deployed and can be accessed [here](https://nasdaq-stock-explorer.netlify.app/).
+
 ## Features
 
 - View NASDAQ-listed stocks
