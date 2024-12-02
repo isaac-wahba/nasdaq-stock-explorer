@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk, PayloadAction } from "@reduxjs/toolkit";
-import { Stock, StocksResponse, StocksState } from "../types/stock";
+import { StocksState } from "../types/stock";
 import { fetchStocksData } from "../services/stocksService";
 
 export const fetchStocks = createAsyncThunk(

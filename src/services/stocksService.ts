@@ -37,8 +37,6 @@ const filterMockStocks = (
   };
 };
 
-const abortController = new AbortController();
-
 export const fetchStocksData = async (
   search?: string,
   nextUrl?: string
